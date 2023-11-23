@@ -1,0 +1,67 @@
+/* Dhruv Patel, 000919050*/
+/*nav*/
+nav{
+	background-color: black;
+	line-height: 1.7em;
+	position: sticky;
+	top: 0;
+}
+nav a{
+	color:#fdb924;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+nav ul{
+	margin-top: 0;
+}
+nav li{
+	list-style-type: none;
+	display: inline
+}
+nav li:hover{
+	text-decoration: underline;
+	color:#fdb924;
+	background-color: grey;
+}
+/*header*/
+header{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+header div{
+	justify-self:end;
+	align-self: center;
+}
+/*footer*/
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 35px;
+	background-color:#fdb924;
+	margin-top: 15px;
+}
+#ftrlogo{
+	padding-top:20px;
+	padding-left:20px;
+	justify-self: start;
+	align-self:start;
+}
+footer ul{
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+}
+footer h4{  
+	border-bottom: 1px solid black;
+	margin-bottom:5px;
+}
+#apps{
+	margin-top: 50px;
+}
+#contact{
+	margin-right:50px;
+}
+footer img{
+	vertical-align: middle;
+}
